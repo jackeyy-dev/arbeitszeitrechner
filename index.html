@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arbeitszeit Rechner – Arbeitszeit mit Pausen kostenlos online berechnen | KlarZeit</title>
+<meta name="description" content="Mit dem Arbeitszeit Rechner berechnen Sie Ihre Arbeitszeit exakt: Beginn, Ende und bis zu zwei Pausen eingeben – Nettozeit, Dezimalstunden und Soll-Vergleich inklusive. Dazu Pausenrechner, Monats- und Jahresarbeitszeit 2026 und steuerfreie Zuschläge nach § 3b EStG.">
+<meta name="robots" content="index, follow">
+<!-- TODO nach dem Deploy: Canonical-Tag mit der eigenen Domain eintragen -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Arbeitszeit Rechner – Arbeitszeit exakt berechnen | KlarZeit">
+<meta property="og:description" content="Arbeitszeit Rechner mit zwei Pausen, Pausenrechner und Monats-/Jahresrechner. Kostenlos, minutengenau, ohne Anmeldung.">
+<meta property="og:locale" content="de_DE">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%234f46e5'/%3E%3Cpath d='M10 22V10h3v9h7v3z' fill='white'/%3E%3Ccircle cx='22' cy='10' r='2.4' fill='%23a5b4fc'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"WebApplication",
+ "name":"KlarZeit Arbeitszeit Rechner",
+ "applicationCategory":"BusinessApplication",
+ "operatingSystem":"Web",
+ "offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},
+ "inLanguage":"de",
+ "description":"Arbeitszeit Rechner für Tages-, Monats- und Jahresarbeitszeit – mit zwei Pausen, Pausenrechner nach § 4 ArbZG und Soll-Vergleich."
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"FAQPage",
+ "mainEntity":[
+  {"@type":"Question","name":"Was ist ein Arbeitszeit Rechner und was berechnet er?","acceptedAnswer":{"@type":"Answer","text":"Ein Arbeitszeit Rechner ermittelt aus Arbeitsbeginn, Arbeitsende und Pausen Ihre tatsächliche Arbeitszeit. Er zeigt die Nettoarbeitszeit in Stunden und Minuten, den Dezimalwert für die Abrechnung und – bei Eingabe einer Sollzeit – die Differenz als Plus- oder Minusstunden."}},
+  {"@type":"Question","name":"Kann ein Arbeitszeit Rechner mehrere Pausen berücksichtigen?","acceptedAnswer":{"@type":"Answer","text":"Ja. Viele Arbeitstage haben mehr als eine Pause, etwa Mittagspause plus eine kurze Unterbrechung. Dieser Arbeitszeit Rechner addiert bis zu zwei Pausen getrennt und zieht die Summe von der Anwesenheitszeit ab."}},
+  {"@type":"Question","name":"Rundet der Arbeitszeit Rechner meine Zeiten?","acceptedAnswer":{"@type":"Answer","text":"Nein, dieser Rechner arbeitet minutengenau. Gerundet wird nur dort, wo es Ihr Betrieb ausdrücklich regelt, zum Beispiel im 5- oder 15-Minuten-Raster. Eine Rundung darf Beschäftigte nicht systematisch benachteiligen."}},
+  {"@type":"Question","name":"Wie viele Arbeitstage hat das Jahr 2026?","acceptedAnswer":{"@type":"Answer","text":"2026 gibt es 261 Tage von Montag bis Freitag. Nach Abzug der gesetzlichen Feiertage bleiben je nach Bundesland 252 bis 254 Arbeitstage – am wenigsten in Baden-Württemberg, Bayern und Sachsen, am meisten unter anderem in Berlin und Niedersachsen."}},
+  {"@type":"Question","name":"Wie hoch ist der steuerfreie Nachtzuschlag?","acceptedAnswer":{"@type":"Answer","text":"Nach § 3b EStG bleiben Nachtzuschläge bis 25 Prozent des Grundlohns steuerfrei (Arbeit von 20 bis 6 Uhr). Für die Zeit von 0 bis 4 Uhr sind bis 40 Prozent steuerfrei, wenn die Nachtarbeit vor 0 Uhr begonnen hat. Der Grundlohn wird dabei mit höchstens 50 Euro pro Stunde angesetzt."}},
+  {"@type":"Question","name":"Ich bin 6,5 Stunden anwesend – brauche ich eine Pause?","acceptedAnswer":{"@type":"Answer","text":"Entscheidend ist die Arbeitszeit ohne Pausen. Wer 6,5 Stunden anwesend ist und davon 30 Minuten pausiert, arbeitet 6 Stunden. Die genommene Pause erfüllt die Anforderung des § 4 ArbZG in jedem Fall; vorgeschrieben ist sie ab mehr als 6 Stunden Arbeitszeit mit mindestens 30 Minuten."}},
+  {"@type":"Question","name":"Eignet sich der Arbeitszeit Rechner auch für Schicht- und Nachtdienste?","acceptedAnswer":{"@type":"Answer","text":"Ja. Endet eine Schicht nach Mitternacht, rechnet der Rechner die Endzeit automatisch auf den Folgetag. Das gilt für Pflege, Produktion, Sicherheitsdienste und alle anderen Berufe mit Nachtdiensten."}},
+  {"@type":"Question","name":"Wie berechne ich meine Jahresarbeitszeit?","acceptedAnswer":{"@type":"Answer","text":"Multiplizieren Sie Ihre Wochenstunden mit 52. Bei 40 Stunden sind das 2.080 Stunden im Jahr. Für die tatsächlich geleistete Zeit ziehen Sie Urlaub und Feiertage ab, zum Beispiel 253 Arbeitstage mal 8 Stunden minus 30 Urlaubstage ergibt 1.784 Stunden."}},
+  {"@type":"Question","name":"Ersetzt ein Arbeitszeit Rechner die betriebliche Zeiterfassung?","acceptedAnswer":{"@type":"Answer","text":"Nein. Der Rechner ist ein Kontroll- und Planungswerkzeug für Ihre eigenen Zahlen. Die Pflicht des Arbeitgebers, ein System zur Erfassung der Arbeitszeit bereitzustellen, besteht unabhängig davon weiter."}},
+  {"@type":"Question","name":"Ist der Arbeitszeit Rechner kostenlos?","acceptedAnswer":{"@type":"Answer","text":"Ja. Alle Rechner auf dieser Seite sind kostenlos und ohne Anmeldung nutzbar. Ihre Eingaben bleiben in Ihrem Browser und werden an keinen Server übertragen."}}
+ ]
+}
+</script>
+<style>
+:root{
+ --ind:#4f46e5; --vio:#7c3aed; --ink:#191c2e; --muted:#5d6280;
+ --bg:#f3f4fa; --card:#ffffff; --line:#e2e4f2;
+ --grad:linear-gradient(120deg,#4f46e5,#7c3aed 60%,#a855f7);
+ --soft:#eef0fe; --ok:#166534; --okbg:#e6f6ec; --warn:#92400e; --warnbg:#fdf0dc; --bad:#b91c1c; --badbg:#fdecec;
+ --r:18px; --sh:0 14px 34px rgba(46,42,110,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.68;font-size:17px}
+a{color:var(--ind);text-decoration:underline;text-underline-offset:3px}
+a:hover{color:var(--vio)}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header.site{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:13px;padding-bottom:13px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.28rem;color:var(--ink);text-decoration:none}
+.logo .mark{width:34px;height:34px;border-radius:10px;background:var(--grad);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1rem}
+.logo em{font-style:normal;color:var(--ind)}
+nav.main{display:flex;gap:20px;flex-wrap:wrap}
+nav.main a{color:var(--muted);text-decoration:none;font-size:.94rem;font-weight:600}
+nav.main a:hover{color:var(--ind)}
+.hero{padding:48px 0 26px;background:radial-gradient(700px 300px at 85% -60px,rgba(124,58,237,.16),transparent 60%),radial-gradient(560px 260px at 0% 120%,rgba(79,70,229,.12),transparent 60%),var(--bg)}
+.hero .cols{display:grid;grid-template-columns:1.55fr 1fr;gap:30px;align-items:start}
+.hero h1{font-size:2.42rem;line-height:1.16;letter-spacing:-.01em}
+.hero h1 .hl{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{margin-top:16px;color:#3c4060;font-size:1.07rem}
+.hero p.lead a{font-weight:700}
+.facts{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh);padding:22px 24px}
+.facts h3{font-size:1rem;margin-bottom:12px;color:var(--ink)}
+.facts ul{list-style:none}
+.facts li{display:flex;justify-content:space-between;gap:14px;padding:9px 0;border-bottom:1px dashed var(--line);font-size:.95rem}
+.facts li:last-child{border-bottom:0}
+.facts li b{color:var(--ind);white-space:nowrap}
+.chips{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}
+.chips span{background:#fff;border:1px solid var(--line);padding:6px 14px;border-radius:999px;font-size:.87rem;font-weight:600;color:#3c4060}
+main{padding-bottom:10px}
+.tool{background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:var(--sh);padding:28px;margin:24px 0;overflow:hidden;position:relative}
+.tool::before{content:"";position:absolute;top:0;left:0;right:0;height:5px;background:var(--grad)}
+.tool h2{font-size:1.42rem;margin-bottom:4px}
+.tool p.sub{color:var(--muted);font-size:.96rem;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.grid.c3{grid-template-columns:repeat(3,1fr)}
+.grid.c4{grid-template-columns:repeat(4,1fr)}
+.field label{display:block;font-weight:700;font-size:.89rem;margin-bottom:6px}
+.field input{width:100%;padding:12px 13px;border:1.5px solid var(--line);border-radius:12px;font-size:1.04rem;background:#fbfbff;color:var(--ink)}
+.field input:focus{outline:2px solid var(--ind);border-color:var(--ind)}
+.field small{display:block;color:var(--muted);margin-top:5px;font-size:.81rem}
+button.go{margin-top:18px;background:var(--grad);color:#fff;border:0;padding:13px 28px;font-size:1.03rem;font-weight:800;border-radius:12px;cursor:pointer;box-shadow:0 10px 22px rgba(99,72,229,.30)}
+button.go:hover{filter:brightness(1.08)}
+.results{display:none;margin-top:22px}
+.results.show{display:block}
+.res-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}
+.res{background:var(--soft);border:1px solid #d9dcfb;border-radius:14px;padding:15px;text-align:center}
+.res b{display:block;font-size:1.38rem;color:var(--ind)}
+.res span{font-size:.85rem;color:var(--muted);font-weight:600}
+.note{margin-top:15px;padding:12px 16px;border-radius:12px;font-size:.94rem;display:none}
+.note.show{display:block}
+.note.ok{background:var(--okbg);color:var(--ok)}
+.note.warn{background:var(--warnbg);color:var(--warn)}
+.note.bad{background:var(--badbg);color:var(--bad)}
+.outline{display:none;margin-top:16px;background:var(--soft);border:1px dashed #b9bdf3;border-radius:12px;padding:15px 18px}
+.outline.show{display:block}
+.outline .big{font-size:1.22rem;font-weight:800;color:var(--ind)}
+.outline p{margin-top:4px;font-size:.96rem}
+section.block{padding:36px 0 4px}
+section.block h2{font-size:1.66rem;line-height:1.25;margin-bottom:12px;letter-spacing:-.01em}
+section.block h3{font-size:1.17rem;margin:22px 0 8px}
+section.block p{margin-bottom:12px;max-width:880px}
+section.block ul,section.block ol{margin:0 0 14px 23px;max-width:880px}
+section.block li{margin-bottom:6px}
+.kicker{text-transform:uppercase;letter-spacing:.13em;font-size:.77rem;font-weight:800;color:var(--vio);margin-bottom:8px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;margin-top:16px}
+.cards.c4{grid-template-columns:repeat(4,1fr)}
+.mini{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:19px;box-shadow:var(--sh)}
+.mini b{display:block;margin-bottom:5px}
+.mini b .ic{color:var(--ind)}
+.mini p{color:#4a4e6c;font-size:.94rem;margin:0}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin:16px 0 8px;font-size:.96rem}
+th{background:#232046;color:#fff;text-align:left;padding:11px 14px;font-size:.9rem}
+td{padding:10px 14px;border-top:1px solid var(--line)}
+tr:nth-child(even) td{background:#f8f8fd}
+.formula{background:#232046;color:#e6e4ff;border-radius:var(--r);padding:20px 24px;margin:16px 0;font-size:1.05rem}
+.formula code{font-family:ui-monospace,Consolas,monospace;background:rgba(255,255,255,.13);padding:2px 8px;border-radius:7px;color:#fff}
+details.faq{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 19px;margin-bottom:11px}
+details.faq summary{font-weight:700;cursor:pointer;font-size:1.02rem}
+details.faq p{margin-top:8px;color:#3c4060}
+footer.site{background:#17142e;color:#b9bce0;margin-top:54px;padding:36px 0 44px;font-size:.92rem}
+footer.site b{color:#fff}
+footer.site p{max-width:880px;margin-bottom:10px}
+.small{font-size:.88rem;color:var(--muted)}
+@media(max-width:920px){.hero .cols{grid-template-columns:1fr}.grid{grid-template-columns:repeat(3,1fr)}.cards.c4{grid-template-columns:1fr 1fr}.res-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:580px){body{font-size:16px}.hero h1{font-size:1.78rem}.grid,.grid.c3,.grid.c4,.cards{grid-template-columns:1fr}.cards.c4{grid-template-columns:1fr}nav.main{display:none}table{font-size:.87rem}th,td{padding:8px 10px}}
+</style>
+</head>
+<body>
+<header class="site">
+ <div class="wrap">
+  <a class="logo" href="#"><span class="mark">◷</span>Klar<em>Zeit</em></a>
+  <nav class="main">
+   <a href="#rechner">Arbeitszeit Rechner</a>
+   <a href="#pausenrechner">Pausenrechner</a>
+   <a href="#monat-jahr">Monat &amp; Jahr</a>
+   <a href="#zuschlaege">Zuschläge</a>
+   <a href="#faq">FAQ</a>
+  </nav>
+ </div>
+</header>
+
+<div class="hero">
+ <div class="wrap">
+  <div class="cols">
+   <div>
+    <h1>Arbeitszeit Rechner: <span class="hl">Ihre Arbeitszeit exakt berechnen</span> – Pause für Pause</h1>
+    <p class="lead">Mittagspause hier, kurze Unterbrechung da, Feierabend irgendwann dazwischen – am Ende des Monats weiß kaum jemand genau, wie viele Stunden wirklich zusammengekommen sind. Wer nur einen einzelnen Tag in wenigen Sekunden gegenprüfen will, ist mit einem kompakten <a href="https://arbeitzeitrechner.de/">arbeitszeit rechner</a> gut bedient. Dieser Arbeitszeit Rechner geht weiter: Er verarbeitet zwei Pausen getrennt, vergleicht Ihr Ergebnis mit Ihrer Sollzeit und rechnet auf Wunsch Monat und Jahr gleich mit – kostenlos, minutengenau und ohne Anmeldung.</p>
+    <div class="chips">
+     <span>✓ Zwei Pausen getrennt</span>
+     <span>✓ Nachtschicht inklusive</span>
+     <span>✓ Minutengenau, keine Rundung</span>
+     <span>✓ Daten bleiben im Browser</span>
+    </div>
+   </div>
+   <aside class="facts" aria-label="Kennzahlen 2026">
+    <h3>Zahlen, die 2026 zählen</h3>
+    <ul>
+     <li><span>Arbeitstage 2026 (je nach Bundesland)</span><b>252–254</b></li>
+     <li><span>Nachtzuschlag steuerfrei bis</span><b>25 % / 40 %</b></li>
+     <li><span>Sonntagszuschlag steuerfrei bis</span><b>50 %</b></li>
+     <li><span>Feiertagszuschlag steuerfrei bis</span><b>125 %</b></li>
+     <li><span>Pflichtpause ab 6 / 9 Stunden</span><b>30 / 45 Min</b></li>
+    </ul>
+   </aside>
+  </div>
+ </div>
+</div>
+
+<main class="wrap">
+
+ <!-- ============ HAUPTRECHNER ============ -->
+ <div class="tool" id="rechner">
+  <h2>Arbeitszeit Rechner mit zwei Pausen – Ihr Tag im Detail</h2>
+  <p class="sub">Beginn und Ende eintragen, beide Pausen getrennt angeben, fertig. Der Arbeitszeit Rechner zieht die Pausensumme von Ihrer Anwesenheit ab und stellt das Ergebnis Ihrer Sollzeit gegenüber.</p>
+  <form id="mainForm">
+   <div class="grid">
+    <div class="field"><label for="mStart">Arbeitsbeginn</label><input type="time" id="mStart" value="07:45" required></div>
+    <div class="field"><label for="mEnd">Arbeitsende</label><input type="time" id="mEnd" value="16:30" required><small>Nachtschicht? Endzeit einfach nach Mitternacht eintragen.</small></div>
+    <div class="field"><label for="mP1">Pause 1 – Mittag (Min)</label><input type="number" id="mP1" value="30" min="0" max="720" step="5"></div>
+    <div class="field"><label for="mP2">Pause 2 – weitere (Min)</label><input type="number" id="mP2" value="10" min="0" max="720" step="5"></div>
+    <div class="field"><label for="mSoll">Sollzeit heute (Std)</label><input type="number" id="mSoll" value="8" min="0" max="24" step="0.25"></div>
+   </div>
+   <button class="go" type="submit">Jetzt berechnen</button>
+  </form>
+  <div class="results" id="mResults" aria-live="polite">
+   <div class="res-grid">
+    <div class="res"><b id="mNetto">–</b><span>Nettoarbeitszeit</span></div>
+    <div class="res"><b id="mBrutto">–</b><span>Anwesenheit (brutto)</span></div>
+    <div class="res"><b id="mDez">–</b><span>Dezimalstunden</span></div>
+    <div class="res"><b id="mDiff">–</b><span>Abweichung zur Sollzeit</span></div>
+   </div>
+   <div class="note" id="mNote"></div>
+  </div>
+ </div>
+
+ <!-- ============ GENAUIGKEIT ============ -->
+ <section class="block" id="genauigkeit">
+  <p class="kicker">Warum Präzision zählt</p>
+  <h2>Kleine Fehler, große Wirkung: Warum sich Genauigkeit lohnt</h2>
+  <p>Zehn Minuten klingen nach nichts. Doch wer jeden Tag zehn Minuten zu viel oder zu wenig notiert, sammelt über ein Arbeitsjahr mit rund 220 Arbeitstagen <strong>36,7 Stunden</strong> an – das sind mehr als viereinhalb komplette Arbeitstage. In die eine Richtung verschenken Sie Lohn oder Freizeit, in die andere Richtung entsteht ein falsches Überstundenpolster, das bei der ersten Prüfung zerfällt. Ein Arbeitszeit Rechner verhindert solche schleichenden Fehler, weil er jede Eingabe nach derselben Logik verarbeitet: Anwesenheit minus Pausen, ohne Ausnahme und ohne Tagesform.</p>
+  <p>Drei typische Fehlerquellen entschärft die Berechnung besonders zuverlässig:</p>
+  <ul>
+   <li><strong>Die vergessene zweite Pause:</strong> Neben der Mittagspause gibt es oft eine weitere kurze Unterbrechung. Wird sie nicht abgezogen, stimmt die Tagesbilanz nie.</li>
+   <li><strong>Der Kopfrechen-Fehler an der Stundengrenze:</strong> Aus 07:45 bis 16:30 Uhr werden im Kopf schnell „9 Stunden" – tatsächlich sind es 8 Stunden 45 Minuten Anwesenheit und nach 40 Minuten Pausen nur 8 Stunden 5 Minuten Arbeitszeit (8,08 Dezimalstunden).</li>
+   <li><strong>Die verwechselte Schicht:</strong> Bei Nachtdiensten über Mitternacht entstehen ohne Rechner regelmäßig negative oder doppelte Werte.</li>
+  </ul>
+  <h3>Minutengenau oder gerundet? Die Rundungsfrage</h3>
+  <p>Dieser Arbeitszeit Rechner rundet nicht – er zeigt Ihre Zeit auf die Minute. In vielen Betrieben wird dagegen gerundet, zum Beispiel auf das 5- oder 15-Minuten-Raster. Zulässig ist das nur, wenn eine klare Regel existiert, etwa im Arbeitsvertrag oder in einer Betriebsvereinbarung, und sie darf die Beschäftigten nicht systematisch benachteiligen: Wer jeden Tag um 07:53 Uhr stempelt und wessen Zeit stur auf 08:00 Uhr aufgerundet wird, verliert sonst Monat für Monat echte Arbeitszeit. Zum Kontrollieren Ihrer Abrechnung gilt deshalb: Vergleichen Sie die gerundeten Werte Ihres Betriebs gelegentlich mit der minutengenauen Rechnung – die Differenz erklärt viele vermeintliche „Rechenfehler" der Lohnabrechnung.</p>
+ </section>
+
+ <!-- ============ PAUSENRECHNER ============ -->
+ <section class="block" id="pausenrechner">
+  <p class="kicker">Pausenplanung</p>
+  <h2>Pausenrechner: Pause planen statt Pause raten</h2>
+  <p>Die gesetzliche Pause hängt nicht davon ab, wann Sie Hunger haben, sondern wie lange Sie arbeiten: Bis 6 Stunden gar keine, darüber 30 Minuten, ab mehr als 9 Stunden 45 Minuten (§ 4 ArbZG). Umgekehrt lässt sich damit Ihr kompletter Tag planen: Sie wissen, wie viele Stunden Sie arbeiten müssen – der Pausenrechner zeigt Ihnen, welche Pause mindestens dazugehört, wie lange Sie insgesamt anwesend sind und wann Ihre Pause spätestens beginnen muss, denn länger als 6 Stunden am Stück darf niemand durcharbeiten.</p>
+  <div class="tool" style="margin-top:18px">
+   <h2 style="font-size:1.3rem">Pausenrechner – Mindestpause &amp; Feierabend</h2>
+   <p class="sub">Arbeitsbeginn und Ihre geplante Netto-Arbeitszeit eingeben. Der Rechner ergänzt die gesetzliche Mindestpause automatisch.</p>
+   <div class="grid c3">
+    <div class="field"><label for="pStart">Arbeitsbeginn</label><input type="time" id="pStart" value="08:00"></div>
+    <div class="field"><label for="pNetto">Geplante Arbeitszeit (Std)</label><input type="number" id="pNetto" value="8" min="0" max="16" step="0.25"><small>Netto, also ohne Pause.</small></div>
+    <div class="field"><label for="pExtra">Zusätzliche Pause (Min)</label><input type="number" id="pExtra" value="0" min="0" max="720" step="5"><small>Falls Sie länger pausieren möchten.</small></div>
+   </div>
+   <button class="go" type="button" id="pBtn">Pause &amp; Feierabend berechnen</button>
+   <div class="outline" id="pOut" aria-live="polite"></div>
+  </div>
+  <table>
+   <thead><tr><th>Beginn</th><th>Ziel (netto)</th><th>Mindestpause</th><th>Feierabend</th><th>Pause spätestens ab</th></tr></thead>
+   <tbody>
+    <tr><td>08:00</td><td>8 Std.</td><td>30 Min</td><td><strong>16:30</strong></td><td>14:00 (nach 6 Std. Arbeit)</td></tr>
+    <tr><td>06:00</td><td>9 Std. 30 Min</td><td>45 Min</td><td><strong>16:15</strong></td><td>12:00 (nach 6 Std. Arbeit)</td></tr>
+    <tr><td>10:00</td><td>5 Std.</td><td>keine Pflicht</td><td><strong>15:00</strong></td><td>–</td></tr>
+   </tbody>
+  </table>
+  <p class="small">Die Mindestpause darf in Abschnitte von jeweils mindestens 15 Minuten aufgeteilt werden. Beispiel: Bei 8 Stunden Arbeit können Sie 15 Minuten vormittags und 15 Minuten nachmittags pausieren, statt einmal 30 Minuten am Mittag.</p>
+ </section>
+
+ <!-- ============ MONAT & JAHR ============ -->
+ <section class="block" id="monat-jahr">
+  <p class="kicker">Große Zeiträume</p>
+  <h2>Monats- und Jahresarbeitszeit: Das Jahr 2026 in Zahlen</h2>
+  <p>Für Urlaubsplanung, Projektbudgets und Gehaltsvergleiche zählt selten der einzelne Tag, sondern der Monat oder gleich das ganze Jahr. Der Rechner unten arbeitet mit Durchschnittswerten. Was der Kalender 2026 konkret vorgibt, ist schnell erklärt: Das Jahr hat <strong>261 Tage von Montag bis Freitag</strong>. Ziehen Sie die gesetzlichen Feiertage ab, bleiben je nach Bundesland <strong>252 bis 254 Arbeitstage</strong> – am wenigsten in Baden-Württemberg, Bayern und Sachsen mit ihren zusätzlichen Feiertagen, am meisten unter anderem in Berlin, Brandenburg, Hamburg und Niedersachsen.</p>
+  <div class="tool" style="margin-top:18px">
+   <h2 style="font-size:1.3rem">Monats- &amp; Jahresrechner</h2>
+   <p class="sub">Wochenstunden und Arbeitstage pro Woche eingeben – dazu Ihre Urlaubstage für die tatsächliche Jahresarbeitszeit.</p>
+   <div class="grid c4">
+    <div class="field"><label for="jWoche">Wochenstunden</label><input type="number" id="jWoche" value="40" min="1" max="60" step="0.5"></div>
+    <div class="field"><label for="jTage">Arbeitstage pro Woche</label><input type="number" id="jTage" value="5" min="1" max="6" step="1"></div>
+    <div class="field"><label for="jUrlaub">Urlaubstage pro Jahr</label><input type="number" id="jUrlaub" value="30" min="0" max="60" step="1"></div>
+    <div class="field"><label for="jLand">Arbeitstage 2026 (Ihr Bundesland)</label><input type="number" id="jLand" value="253" min="240" max="260" step="1"><small>252–254 je nach Bundesland, z. B. NRW 253.</small></div>
+   </div>
+   <button class="go" type="button" id="jBtn">Monat &amp; Jahr berechnen</button>
+   <div class="outline" id="jOut" aria-live="polite"></div>
+  </div>
+  <h3>So verteilen sich die Arbeitstage 2026 über die Monate</h3>
+  <p>Die folgende Übersicht gilt bundesweit nach den gemeinsamen Feiertagen (254 Tage). Der Juli ist mit 23 Tagen der längste Arbeitsmonat, der Mai mit nur 18 Tagen der kürzeste – Tag der Arbeit, Christi Himmelfahrt und Pfingstmontag fallen 2026 alle auf Werktage:</p>
+  <table>
+   <thead><tr><th>Monat</th><th>Arbeitstage</th><th>Monat</th><th>Arbeitstage</th></tr></thead>
+   <tbody>
+    <tr><td>Januar</td><td>21</td><td>Juli</td><td>23</td></tr>
+    <tr><td>Februar</td><td>20</td><td>August</td><td>21</td></tr>
+    <tr><td>März</td><td>22</td><td>September</td><td>22</td></tr>
+    <tr><td>April</td><td>20</td><td>Oktober</td><td>22</td></tr>
+    <tr><td>Mai</td><td>18</td><td>November</td><td>21</td></tr>
+    <tr><td>Juni</td><td>22</td><td>Dezember</td><td>22</td></tr>
+   </tbody>
+  </table>
+  <h3>Von der Wochenstunde zur Jahresstunde</h3>
+  <table>
+   <thead><tr><th>Wochenstunden</th><th>Monatsstunden (Ø)</th><th>Jahresstunden (vertraglich)</th></tr></thead>
+   <tbody>
+    <tr><td>35</td><td>151,7</td><td>1.820</td></tr>
+    <tr><td>37,5</td><td>162,5</td><td>1.950</td></tr>
+    <tr><td>38,5</td><td>166,8</td><td>2.002</td></tr>
+    <tr><td>39</td><td>169,0</td><td>2.028</td></tr>
+    <tr><td>40</td><td>173,3</td><td>2.080</td></tr>
+   </tbody>
+  </table>
+  <p>Vertragliche Jahresstunden sind die Theorie – tatsächlich gearbeitet wird weniger: Feiertage und Urlaub fallen heraus. Ein realistisches Beispiel für Nordrhein-Westfalen: 253 Arbeitstage × 8 Stunden = 2.024 Stunden Soll-Anwesenheit; ziehen Sie 30 Urlaubstage (240 Stunden) ab, bleiben <strong>1.784 tatsächlich geleistete Stunden</strong> im Jahr 2026. Genau diese Zahl brauchen Sie, wenn Sie Ihren effektiven Stundenlohn aus einem Jahresgehalt zurückrechnen wollen.</p>
+ </section>
+
+ <!-- ============ BRANCHEN & ZUSCHLÄGE ============ -->
+ <section class="block" id="branchen">
+  <p class="kicker">Praxis</p>
+  <h2>Ein Rechner, viele Arbeitswelten</h2>
+  <p>Die Rechenformel ist überall dieselbe – die Tücken stecken in den Besonderheiten der Branche:</p>
+  <div class="cards c4">
+   <div class="mini"><b><span class="ic">✚</span> Pflege &amp; Gesundheit</b><p>Früh-, Spät- und Nachtdienste im Wechsel, Übergaben am Schichtrand. Wichtig: Jede Schicht einzeln rechnen und die 11 Stunden Ruhezeit bis zum nächsten Dienst im Blick behalten.</p></div>
+   <div class="mini"><b><span class="ic">⚒</span> Handwerk &amp; Bau</b><p>Wechselnde Einsatzorte, Wegezeiten zwischen Baustellen und frühe Starts. Klären Sie, ab wann Ihre Zeit zählt – ab Betriebshof oder ab Baustelle – und dokumentieren Sie es einheitlich.</p></div>
+   <div class="mini"><b><span class="ic">⚙</span> Produktion &amp; Schichtbetrieb</b><p>Drei-Schicht-Modelle mit festen Rotationen. Hier lohnt die Wochenansicht: Nur sie zeigt, ob die Rotation die 48-Stunden-Grenze pro Woche einhält.</p></div>
+   <div class="mini"><b><span class="ic">▣</span> Büro &amp; Verwaltung</b><p>Gleitzeit und Homeoffice-Tage gemischt. Der Arbeitszeit Rechner hilft, Kernzeiten und Gleitzeitrahmen sauber auseinanderzuhalten – besonders an kurzen Freitagen.</p></div>
+  </div>
+ </section>
+
+ <section class="block" id="zuschlaege">
+  <p class="kicker">Mehr Geld für ungünstige Zeiten</p>
+  <h2>Steuerfreie Zuschläge: Nacht, Sonntag, Feiertag</h2>
+  <p>Wer nachts, sonntags oder feiertags arbeitet, erhält in vielen Branchen Zuschläge auf den Grundlohn. Die Höhe steht in Tarif- oder Arbeitsvertrag – das Steuerrecht regelt in § 3b EStG, bis zu welchen Sätzen diese Zuschläge <strong>steuerfrei</strong> bleiben, wenn sie für tatsächlich geleistete Arbeit zusätzlich zum Grundlohn gezahlt werden:</p>
+  <table>
+   <thead><tr><th>Arbeitszeit</th><th>Steuerfrei bis</th><th>Beispiel bei 20 € Grundlohn</th></tr></thead>
+   <tbody>
+    <tr><td>Nachtarbeit, 20:00–06:00 Uhr</td><td>25 %</td><td>5,00 € pro Stunde</td></tr>
+    <tr><td>Nachtarbeit, 00:00–04:00 Uhr (Beginn vor 0 Uhr)</td><td>40 %</td><td>8,00 € pro Stunde</td></tr>
+    <tr><td>Sonntagsarbeit</td><td>50 %</td><td>10,00 € pro Stunde</td></tr>
+    <tr><td>Feiertagsarbeit, 31.12. ab 14:00 Uhr</td><td>125 %</td><td>25,00 € pro Stunde</td></tr>
+    <tr><td>24.12. ab 14:00 Uhr, 25./26.12., 1. Mai</td><td>150 %</td><td>30,00 € pro Stunde</td></tr>
+   </tbody>
+  </table>
+  <p>Zwei Grenzen sollten Sie kennen: Für die Steuerfreiheit wird der Grundlohn mit höchstens <strong>50 € pro Stunde</strong> angesetzt; für die zusätzliche Beitragsfreiheit in der Sozialversicherung gilt eine niedrigere Grenze von <strong>25 €</strong>. Unabhängig vom Steuerrecht sichert § 6 Abs. 5 ArbZG Nachtarbeitnehmern einen angemessenen Ausgleich – nach der Rechtsprechung des Bundesarbeitsgerichts sind 25 Prozent Zuschlag in der Regel angemessen, wenn kein Tarifvertrag etwas anderes regelt. Ob und wie viel Zuschlag Ihnen zusteht, steht also zuerst in Ihrem Vertrag – der Arbeitszeit Rechner liefert Ihnen dafür die exakten Stunden als Grundlage.</p>
+ </section>
+
+ <!-- ============ FAQ ============ -->
+ <section class="block" id="faq">
+  <p class="kicker">Wissen</p>
+  <h2>Häufige Fragen an einen Arbeitszeit Rechner</h2>
+  <details class="faq"><summary>Was ist ein Arbeitszeit Rechner und was berechnet er?</summary><p>Ein Arbeitszeit Rechner ermittelt aus Arbeitsbeginn, Arbeitsende und Pausen Ihre tatsächliche Arbeitszeit. Er zeigt die Nettoarbeitszeit in Stunden und Minuten, den Dezimalwert für die Abrechnung und – bei Eingabe einer Sollzeit – die Differenz als Plus- oder Minusstunden.</p></details>
+  <details class="faq"><summary>Kann ein Arbeitszeit Rechner mehrere Pausen berücksichtigen?</summary><p>Ja. Viele Arbeitstage haben mehr als eine Pause, etwa Mittagspause plus eine kurze Unterbrechung. Dieser Arbeitszeit Rechner addiert bis zu zwei Pausen getrennt und zieht die Summe von der Anwesenheitszeit ab.</p></details>
+  <details class="faq"><summary>Rundet der Arbeitszeit Rechner meine Zeiten?</summary><p>Nein, dieser Rechner arbeitet minutengenau. Gerundet wird nur dort, wo es Ihr Betrieb ausdrücklich regelt, zum Beispiel im 5- oder 15-Minuten-Raster. Eine Rundung darf Beschäftigte nicht systematisch benachteiligen.</p></details>
+  <details class="faq"><summary>Wie viele Arbeitstage hat das Jahr 2026?</summary><p>2026 gibt es 261 Tage von Montag bis Freitag. Nach Abzug der gesetzlichen Feiertage bleiben je nach Bundesland 252 bis 254 Arbeitstage – am wenigsten in Baden-Württemberg, Bayern und Sachsen, am meisten unter anderem in Berlin und Niedersachsen.</p></details>
+  <details class="faq"><summary>Wie hoch ist der steuerfreie Nachtzuschlag?</summary><p>Nach § 3b EStG bleiben Nachtzuschläge bis 25 Prozent des Grundlohns steuerfrei (Arbeit von 20 bis 6 Uhr). Für die Zeit von 0 bis 4 Uhr sind bis 40 Prozent steuerfrei, wenn die Nachtarbeit vor 0 Uhr begonnen hat. Der Grundlohn wird dabei mit höchstens 50 Euro pro Stunde angesetzt.</p></details>
+  <details class="faq"><summary>Ich bin 6,5 Stunden anwesend – brauche ich eine Pause?</summary><p>Entscheidend ist die Arbeitszeit ohne Pausen. Wer 6,5 Stunden anwesend ist und davon 30 Minuten pausiert, arbeitet 6 Stunden. Die genommene Pause erfüllt die Anforderung des § 4 ArbZG in jedem Fall; vorgeschrieben ist sie ab mehr als 6 Stunden Arbeitszeit mit mindestens 30 Minuten.</p></details>
+  <details class="faq"><summary>Eignet sich der Arbeitszeit Rechner auch für Schicht- und Nachtdienste?</summary><p>Ja. Endet eine Schicht nach Mitternacht, rechnet der Rechner die Endzeit automatisch auf den Folgetag. Das gilt für Pflege, Produktion, Sicherheitsdienste und alle anderen Berufe mit Nachtdiensten.</p></details>
+  <details class="faq"><summary>Wie berechne ich meine Jahresarbeitszeit?</summary><p>Multiplizieren Sie Ihre Wochenstunden mit 52. Bei 40 Stunden sind das 2.080 Stunden im Jahr. Für die tatsächlich geleistete Zeit ziehen Sie Urlaub und Feiertage ab, zum Beispiel 253 Arbeitstage mal 8 Stunden minus 30 Urlaubstage ergibt 1.784 Stunden.</p></details>
+  <details class="faq"><summary>Ersetzt ein Arbeitszeit Rechner die betriebliche Zeiterfassung?</summary><p>Nein. Der Rechner ist ein Kontroll- und Planungswerkzeug für Ihre eigenen Zahlen. Die Pflicht des Arbeitgebers, ein System zur Erfassung der Arbeitszeit bereitzustellen, besteht unabhängig davon weiter.</p></details>
+  <details class="faq"><summary>Ist der Arbeitszeit Rechner kostenlos?</summary><p>Ja. Alle Rechner auf dieser Seite sind kostenlos und ohne Anmeldung nutzbar. Ihre Eingaben bleiben in Ihrem Browser und werden an keinen Server übertragen.</p></details>
+ </section>
+</main>
+
+<footer class="site">
+ <div class="wrap">
+  <p><b>KlarZeit</b> – Ihr Arbeitszeit Rechner für Tag, Monat und Jahr. Zwei Pausen, exakte Minuten, klare Zahlen: damit Ihre Stundenabrechnung stimmt.</p>
+  <p><b>Hinweis:</b> Alle Inhalte dienen der allgemeinen Information und ersetzen keine Rechts- oder Steuerberatung. Maßgeblich sind Arbeitsvertrag, Tarifvertrag und die aktuelle Gesetzeslage (ArbZG, § 3b EStG; Werte mit Stand 2026).</p>
+  <p>© 2026 KlarZeit. Alle Texte wurden eigenständig recherchiert und verfasst.</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ "use strict";
+ function pad(n){return (n<10?"0":"")+n;}
+ function fmt(min){min=Math.round(min);var s=min<0?"−":"";min=Math.abs(min);return s+Math.floor(min/60)+" Std. "+pad(min%60)+" Min";}
+ function dez(min){return (min/60).toFixed(2).replace(".",",");}
+ function dez1(v){return v.toFixed(1).replace(".",",");}
+ function toMin(t){if(!t)return null;var p=t.split(":");return parseInt(p[0],10)*60+parseInt(p[1],10);}
+ function toClock(min){min=((min%1440)+1440)%1440;return pad(Math.floor(min/60))+":"+pad(min%60);}
+ function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+
+ /* Hauptrechner: zwei Pausen */
+ document.getElementById("mainForm").addEventListener("submit",function(e){
+  e.preventDefault();
+  var s=toMin(document.getElementById("mStart").value),en=toMin(document.getElementById("mEnd").value);
+  if(s===null||en===null)return;
+  var pause=num("mP1")+num("mP2"),soll=num("mSoll");
+  var brutto=en-s; if(brutto<0)brutto+=1440;
+  var netto=Math.max(0,brutto-pause);
+  document.getElementById("mNetto").textContent=fmt(netto);
+  document.getElementById("mBrutto").textContent=fmt(brutto);
+  document.getElementById("mDez").textContent=dez(netto);
+  var dEl=document.getElementById("mDiff");
+  if(soll>0){var d=netto-Math.round(soll*60);dEl.textContent=d>0?"+"+fmt(d):d<0?"−"+fmt(Math.abs(d)):"±0 Std. 00 Min";}
+  else dEl.textContent="–";
+  var pflicht=netto>540?45:netto>360?30:0,msgs=[],cls="ok";
+  if(netto>600){msgs.push("Achtung: Über 10 Stunden Nettoarbeit pro Tag sind nach § 3 ArbZG nicht zulässig.");cls="bad";}
+  else if(netto>480){msgs.push("Hinweis: Mehr als 8 Stunden sind nur mit Ausgleich innerhalb von 6 Monaten erlaubt (§ 3 ArbZG).");cls="warn";}
+  if(pflicht===0)msgs.push("Für diese Arbeitszeit ist keine Mindestpause vorgeschrieben – Ihre Pausen ("+pause+" Min) wurden dennoch abgezogen.");
+  else if(pause<pflicht){msgs.push("Pausen-Check: Eingetragen sind "+pause+" Minuten, gesetzlich nötig wären mindestens "+pflicht+" Minuten (§ 4 ArbZG).");cls="bad";}
+  else msgs.push("Pausen-Check ✓: Ihre Pausen ("+pause+" Min) erfüllen die Mindestpause von "+pflicht+" Minuten nach § 4 ArbZG.");
+  if(en<s)msgs.push("Nachtschicht erkannt: Die Endzeit zählt zum Folgetag.");
+  var note=document.getElementById("mNote");note.className="note show "+cls;note.textContent=msgs.join(" ");
+  document.getElementById("mResults").classList.add("show");
+ });
+
+ /* Pausenrechner */
+ document.getElementById("pBtn").addEventListener("click",function(){
+  var s=toMin(document.getElementById("pStart").value),ziel=num("pNetto"),extra=num("pExtra");
+  if(s===null||ziel<=0)return;
+  var zielMin=Math.round(ziel*60),pflicht=ziel>9?45:ziel>6?30:0,pause=Math.max(pflicht,extra);
+  var ende=s+zielMin+pause,spaet=s+360;
+  var txt='<span class="big">Feierabend: '+toClock(ende)+' Uhr</span><p>Mindestpause: <strong>'+pflicht+' Min</strong>'+(extra>pflicht?' (Sie planen '+extra+' Min – maßgeblich ist Ihre längere Pause)':'')+'. Gesamte Anwesenheit: '+fmt(zielMin+pause)+'.';
+  if(pflicht>0)txt+=' Ihre Pause muss spätestens um <strong>'+toClock(spaet)+' Uhr</strong> beginnen, weil niemand länger als 6 Stunden am Stück arbeiten darf.';
+  else txt+=' Bei bis zu 6 Stunden Arbeitszeit schreibt das Gesetz keine Pause vor.';
+  txt+=' Die Pause darf in Abschnitte von je mindestens 15 Minuten aufgeteilt werden.</p>';
+  var out=document.getElementById("pOut");out.innerHTML=txt;out.classList.add("show");
+ });
+
+ /* Monats- & Jahresrechner */
+ document.getElementById("jBtn").addEventListener("click",function(){
+  var wk=num("jWoche"),tage=num("jTage"),urlaub=num("jUrlaub"),land=num("jLand");
+  if(wk<=0||tage<=0)return;
+  var tag=wk/tage,monat=wk*4.3333,jahr=wk*52;
+  var realStd=land*tag,realNachUrlaub=Math.max(0,(land-urlaub)*tag);
+  function r0(v){return Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g,".");}
+  var txt='<span class="big">'+dez1(monat)+' Monatsstunden · '+r0(jahr)+' Jahresstunden</span><p>Pro Arbeitstag: '+dez(tag*60)+' Stunden. Vertraglich ergeben sich '+r0(jahr)+' Stunden im Jahr ('+String(wk).replace(".",",")+' Std. × 52 Wochen). Mit den '+land+' Arbeitstagen Ihres Bundeslandes 2026 sind es '+r0(realStd)+' Stunden Anwesenheits-Soll – nach Abzug von '+urlaub+' Urlaubstagen bleiben <strong>'+r0(realNachUrlaub)+' tatsächlich geleistete Stunden</strong>.</p>';
+  var out=document.getElementById("jOut");out.innerHTML=txt;out.classList.add("show");
+ });
+})();
+</script>
+</body>
+</html>
